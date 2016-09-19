@@ -10,7 +10,7 @@ clients and supporting our local communities. Want to join our team?
 </p>
 
 <div class="locations">
-	<% data["locations"].each do |location| %>
-		<%= partial "location", locals: { location: location } %>
+	<% data["orange"].each do |bean| %>
+		<%= partial "apple", locals: { cherry: bean } %>
 	<% end %>
 </div>
